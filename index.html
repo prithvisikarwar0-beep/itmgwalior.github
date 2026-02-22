@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduLearn - Modern Education Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <span>EduLearn</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-content animate-up">
+      <h1>Unlock Your Potential with EduLearn</h1>
+      <p>Empowering learners with modern courses and skilled mentors.</p>
+      <a href="#courses" class="btn enroll-btn">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <h2 class="section-title animate-up">Our Courses</h2>
+      <div class="course-cards animate-fade">
+        <div class="course-card">
+          <h3>Web Development</h3>
+          <p>Learn HTML, CSS, JavaScript, and more. Build real projects from scratch!</p>
+        </div>
+        <div class="course-card">
+          <h3>Python Programming</h3>
+          <p>Start coding with Python. Master basics, data analysis, and automation.</p>
+        </div>
+        <div class="course-card">
+          <h3>IoT Fundamentals</h3>
+          <p>Explore Internet of Things concepts. Build smart devices and systems.</p>
+        </div>
+        <div class="course-card">
+          <h3>Java Essentials</h3>
+          <p>Solid programming skills in Java. Create scalable applications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container about-content animate-up">
+      <h2 class="section-title">About EduLearn</h2>
+      <div class="about-details">
+        <div>
+          <h4>Our Mission</h4>
+          <p>To provide accessible, high-quality learning experiences for everyone.</p>
+        </div>
+        <div>
+          <h4>Our Vision</h4>
+          <p>To be a global leader in digital education, fostering innovation and growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Faculty / Mentors Section -->
+  <section class="faculty" id="faculty">
+    <div class="container">
+      <h2 class="section-title animate-up">Meet Our Mentors</h2>
+      <div class="faculty-cards animate-fade">
+        <div class="faculty-card">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" />
+          <h4>John Doe</h4>
+          <p>Web Development Expert</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Jane Smith" />
+          <h4>Jane Smith</h4>
+          <p>Python Specialist</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://randomuser.me/api/portraits/men/53.jpg" alt="Alex Johnson" />
+          <h4>Alex Johnson</h4>
+          <p>IoT Architect</p>
+        </div>
+        <div class="faculty-card">
+          <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Emily Davis" />
+          <h4>Emily Davis</h4>
+          <p>Java Guru</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Student Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title animate-up">Student Testimonials</h2>
+      <div class="testimonial-cards animate-fade">
+        <div class="testimonial-card">
+          <p>"EduLearn helped me land my first developer job! The courses are top-notch."</p>
+          <span>- Sam, Web Dev Graduate</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"The mentors are so helpful and supportive. Highly recommend EduLearn!"</p>
+          <span>- Priya, Python Learner</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"IoT course was amazing. Hands-on projects made all the difference."</p>
+          <span>- Ahmed, IoT Enthusiast</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title animate-up">Contact Us</h2>
+      <form class="contact-form animate-fade" id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required ></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span>&copy; 2026 EduLearn. All rights reserved.</span>
+      </div>
+      <div class="footer-right">
+        <a href="#" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/facebook.svg" alt="Facebook"/></a>
+        <a href="#" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/twitter.svg" alt="Twitter"/></a>
+        <a href="#" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/instagram.svg" alt="Instagram"/></a>
+        <a href="#" aria-label="LinkedIn"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" alt="LinkedIn"/></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
